@@ -1,0 +1,2 @@
+tensorboard --logdir results //display the progress of the training
+mlagents-learn Config/MoveToGoal.yaml --initialize-from=TestParameters --run-id=MoveToGoalImproved //using .yaml file initialized from previous brain
